@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Food</title>
+</head>
+<body class=" bg-dark">
+
+
+  <!-- start of nav -->
+<nav class="navbar navbar-expand-sm navbar-light navcolor justify-content-between fixed-top ">
+  <a class="navbar-brand text-warning" href="#">TOP <span style="font-size: 12px;"> cheif</span></a>
+  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+      aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class=" navp">
+  <div class="dropdown m-1">
+    <button class="btn  dropdown-toggle text-warning" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+          Italy
+        </button>
+    <div class="dropdown-menu " aria-labelledby="triggerId">
+      <a class="dropdown-item nav-item" href="#">pasta</a>
+      <a class="dropdown-item nav-item" href="#">pizza</a>
+      <h6 class="dropdown-item nav-item">broccoli</h6>
+      <a class="dropdown-item nav-item" href="#">lasagna</a>
+      <div class="dropdown-item nav-item"></div>
+      <a class="dropdown-item nav-item" href="#">salami</a>
+    </div>
+  </div>
+  <div class="dropdown  m-1">
+    <button class="btn  dropdown-toggle text-warning" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+          turkey
+        </button>
+    <div class="dropdown-menu " aria-labelledby="triggerId">
+      <a class="dropdown-item nav-item" href="#">turkey</a>
+      <a class="dropdown-item nav-item" href="#">pork</a>
+      <h6 class="dropdown-item nav-item">ribs</h6>
+      <a class="dropdown-item nav-item" href="#">ham</a>
+      <div class="dropdown-item nav-item"></div>
+      <a class="dropdown-item nav-item" href="#">goat</a>
+    </div>
+  </div>
+  <div class="dropdown  m-1">
+    <button class="btn  dropdown-toggle text-warning" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+          french
+        </button>
+    <div class="dropdown-menu " aria-labelledby="triggerId">
+      <a class="dropdown-item nav-item" href="#">paella</a>
+      <a class="dropdown-item nav-item" href="#">coconut</a>
+      <h6 class="dropdown-item nav-item">boysenberry</h6>
+      <a class="dropdown-item nav-item" href="#">blackcurrant</a>
+      <div class="dropdown-item nav-item"></div>
+      <a class="dropdown-item nav-item" href="#">apricot</a>
+    </div>
+  </div>
+  <div class="dropdown  m-1 text-warning">
+    <button class="btn  dropdown-toggle text-warning" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+          Japan
+        </button>
+    <div class="dropdown-menu " aria-labelledby="triggerId">
+      <a class="dropdown-item nav-item" href="#">sushi</a>
+      <a class="dropdown-item nav-item" href="#">seafood</a>
+      <h6 class="dropdown-item nav-item">peas</h6>
+      <a class="dropdown-item nav-item" href="#">radish</a>
+      <div class="dropdown-item nav-item"></div>
+      <a class="dropdown-item nav-item" href="#">beetroot</a>
+    </div>
+  </div>
+  <div class="dropdown  m-1 text-warning">
+    <button class="btn  dropdown-toggle text-warning" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+          America
+        </button>
+    <div class="dropdown-menu " aria-labelledby="triggerId">
+      <a class="dropdown-item nav-item" href="#">hamburger</a>
+      <a class="dropdown-item nav-item" href="#">steak</a>
+      <h6 class="dropdown-item nav-item">cake</h6>
+      <a class="dropdown-item nav-item" href="#">chips</a>
+      <div class="dropdown-item nav-item"></div>
+      <a class="dropdown-item nav-item" href="#">fries</a>
+    </div>
+  </div>
+</div>
+</nav>
+ <!-- end of nav -->
+
+
+
+
+<!-- start of div of photo  -->
+  <div class="  divf mb-3">
+    <h1 class=" text-warning text-slider text-capitalize "> food Ingredients</h1>
+    <br>
+    <br>
+      <p class="typing text-warning"></p>
+  </div>
+
+<!-- end of div of photo  -->
+
+
+<!-- start of search bar -->
+<i class="fas fa-search "></i>
+<input type="search" class=" form-control w-25 bg-dark m-auto mt-3 text-warning" placeholder="Search For Food" id="search">
+<!-- end of search bar -->
+
+
+
+
+
+
+
+
+
+
+    
+ <!-- start of grid -->
+ <div class="container">
+
+  <div class="row mt-5  " id="row">
+
+    
+
+  </div>
+
+ </div>
+  <!-- end of grid -->
+
+
+
+   <!-- start of modal -->
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content bg-dark text-warning text-center ">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal">
+       
+      </div>
+      <div class="modal-footer">
+        
+       
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!-- end of modal -->
+
+
+   <footer class=" text-center text-warning bg-dark  text-capitalize pt-4">
+     all copyright &copy; reserved to food ingredients
+   </footer>
+    
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/brain.js"></script>
+</body>
+
+
+</html>

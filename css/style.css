@@ -1,0 +1,269 @@
+.size{
+    height: 300px;
+    width: 100%;
+    
+}
+.size2{
+    height: 300px;
+    
+}
+.navp{
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.navcolor{
+    background-color: rgb(0, 0, 0,.5);
+}
+.pointerx{
+cursor: pointer;
+}
+.form-control{
+    font-style: oblique;
+    font-weight: bold;
+    border: none;
+}
+.form-control::placeholder{
+    text-align: center;
+}
+.navbar{
+    font-weight: bold;
+    font-family: cursive;
+    font-style: oblique;
+}
+.coloring{
+  
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.divf{
+    position: relative;
+    background-image: url(../images/b.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    cursor: pointer;
+}
+
+.text-slider{
+    font-size: 70px;
+    font-family: fantasy;
+    letter-spacing: 3px
+}
+.typing{
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    font-size: 30px;
+    font-family: cursive;
+    border-right :1px solid yellow ;
+
+    margin-top: 10px;
+    /* padding-right: 5px; */
+}
+.typing::after{
+
+    content: "";
+    animation: typing ease-in-out 10s infinite;
+    transition: all 1s ease-in-out;
+}
+
+
+
+.navbar-brand{
+    font-size: 35px;
+}
+
+@keyframes typing{
+    0%{
+        content: "Ingredient Of p";
+    }
+    1%{
+        content: "Ingredient Of p";
+    }
+    2%{
+        content: " Ingredient Of pa ";
+    }
+    3%{
+        content: "Ingredient Of pas";
+    }
+    4%{
+        content: "Ingredient Of past";
+    }
+    5%{
+        content: "Ingredient Of pasta ";
+    }
+    6%{
+        content: "Ingredient Of past";
+    }
+    7%{
+        content: " Ingredient Of pas ";
+    }
+    8%{
+        content: "Ingredient Of pa";
+    }
+    9%{
+        content: "Ingredient Of p";
+    }
+    10%{
+        content: "Ingredient Of  ";
+    }
+    11%{
+        content: "Ingredient Of ";
+    }
+    12%{
+        content: "Ingredient Of p";
+    }
+    13%{
+        content: "Ingredient Of pi";
+    }
+    14%{
+        content: "Ingredient Of piz";
+    }
+    15%{
+        content: "Ingredient Of pizz";
+    }
+    16%{
+        content: "Ingredient Of pizza";
+    }
+    17%{
+        content: "Ingredient Of pizz";
+    }
+    18%{
+        content: "Ingredient Of piz";
+    }
+    19%{
+        content: "Ingredient Of pi";
+    }
+    20%{
+        content: "Ingredient Of p";
+    }
+    21%{
+        content: "Ingredient Of ";
+    }
+    22%{
+        content: "Ingredient Of";
+    }
+    23%{
+        content: "Ingredient Of p";
+    }
+    24%{
+        content: "Ingredient Of po";
+    }
+    25%{
+        content: "Ingredient Of pop";
+    }
+   26%{
+        content: "Ingredient Of popc";
+    }
+    26%{
+        content: "Ingredient Of popco";
+    }
+    28%{
+        content: "Ingredient Of popcor";
+    }
+    29%{
+        content: "Ingredient Of popcorn";
+    }
+    30%{
+        content: "Ingredient Of popcor";
+    }
+    31%{
+        content: "Ingredient Of popco";
+    }
+    32%{
+        content: "Ingredient Of popc";
+    }
+    33%{
+        content: "Ingredient Of pop";
+    }
+    34%{
+        content: "Ingredient Of po";
+    }
+    35%{
+        content: "Ingredient Of p";
+    }36%{
+        content: "Ingredient Of ";
+    }
+    37%{
+        content: "Ingredient O";
+    }
+   38%{
+        content: "Ingredient O";
+    }
+    39%{
+        content: "Ingredient ";
+    }
+    40%{
+        content: "Ingredient";
+    }
+    41%{
+        content: "Ingredien";
+    }
+    42%{
+        content: "Ingredie";
+    }
+    43%{
+        content: "Ingredi";
+    }
+    44%{
+        content: "Ingred";
+    }
+    45%{
+        content: "Ingre";
+    }
+    46%{
+        content: "Ingr";
+    }
+    47%{
+        content: "Ing";
+    }
+    48%{
+        content: "In";
+    }
+    49%{
+        content: "Ingredients Of All Food";
+    }
+    100%{
+        content: "Ingredients Of All Food";
+    }
+    /* 51%{
+        content: "Ingredient Of food ";
+    }
+    52%{
+        content: "Ingredient Of foo ";
+    }
+    53%{
+        content: "Ingredient Of fo ";
+    }
+   54%{
+        content: "Ingredient Of f ";
+    }
+
+    100%{
+        content: "  ";
+    } */
+}
+@media all and (max-width:800px) {
+    .text-slider{
+        font-size: 30px;
+        font-family: fantasy;
+    }
+    .typing{
+        position: absolute;
+        left: 40%;
+        top: 55%;
+        font-size: 15px;
+        font-family: cursive;
+        border-right :1px solid yellow ;
+        /* padding-right: 5px; */
+    }
+}
